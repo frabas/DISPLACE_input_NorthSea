@@ -1,2 +1,13 @@
-sce biolsce_maturity biolsce_M biolsce_weight biolsce_init_pops biolsce_init_pops biolsce_fecundity biolsce_Linfs biolsce_Ks biolsce_recru biolsce_mig pop
-1 1 1 1 1 1 1 1 1 1 0 NA
+sce biolsce_maturity biolsce_M biolsce_weight biolsce_init_pops biolsce_init_pops biolsce_fecundity biolsce_Linfs biolsce_CVLinfs biolsce_Ks biolsce_recru_rickeralpha biolsce_recru_rickerbeta biolsce_CVrecru biolsce_mig spatial_shift with_shoke FMSYmulti pop
+1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 COD.nsea
+1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 PLE.nsea
+1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 HER.nsea
+1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 SPR.nsea
+2 1 1 1 1 1 1 0.8 1 1.5 0.9 1.5 1 0 0 1 1 COD.nsea
+2 1 1 1 1 1 1 0.8 1 1.5 0.9 1.5 1 0 0 1 1 PLE.nsea
+2 1 1 1 1 1 1 0.8 1 1.5 0.9 1.5 1 0 0 1 1 HER.nsea
+2 1 1 1 1 1 1 0.8 1 1.5 1.1 1 1 0 0 1 1 SPR.nsea
+3 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0.645161290322581 COD.nsea
+3 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0.695238095238095 PLE.nsea
+4 1 1 1 1 1 1 0.8 1 1.5 0.9 1.5 1 0 0 1 0.645161290322581 COD.nsea
+4 1 1 1 1 1 1 0.8 1 1.5 0.9 1.5 1 0 0 1 0.695238095238095 PLE.nsea
