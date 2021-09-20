@@ -1,0 +1,6 @@
+#TreeVersion: 7
+#TreeType: GoFishing
+# id,variable,posx,posy,nchld,children...,value
+0,todayIs,2564,2378,2,1,0,2,1,0
+1,probability,2465,2543,0,0.8
+2,probability,2633,2544,0,0
