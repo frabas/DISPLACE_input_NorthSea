@@ -146,7 +146,7 @@ if(.Platform$OS.type == "windows") {
   }
 }
 
-cat(paste("looking at the R script in ", path, "\n"))
+cat(paste("We are looking at the R script in ", path, "\n"))
 
 
 
@@ -154,8 +154,9 @@ cat(paste("looking at the R script in ", path, "\n"))
 #><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
   
   
-if(TRUE){
+
   
+cat(paste("loading R libraries", "\n"))
   
   # Load basic libraries
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -166,6 +167,7 @@ if(TRUE){
   suppressWarnings(suppressMessages(library(raster)))
   suppressWarnings(suppressMessages(library(tidyr)))
 
+cat(paste("loading R libraries....ok", "\n"))
  
   # SECTION 1: Predict abundance field one time-step ahead (core section for DISPLACE coupling)
   # SECTION 2: Extract abundances for DISPLACE grid
@@ -205,10 +207,14 @@ if(TRUE){
   if(pop==36) a_species_name <- "Sprat"
   if(pop==43) a_species_name <- "Whiting"
   #...
- 
+ cat(paste("loading the lgnb parameters...", "\n"))
+
   load(file.path(path, "interactiverscripts", paste0("Parameters_LengthGroups_",a_species_name,".RData"))) #fullres is a list of lists, where each individual list stores the results of a particular size-group
   # names(fullres) #names of the lists(related to the DISPLACE size-groups)
   # names(fullres[[1]]) #names of the objects present in each list    
+
+ cat(paste("loading the lgnb parameters...ok", "\n"))
+
   if(FALSE){
     plot(gr,type="n",xlab="Longitude",ylab="Latitude",las=1,xlim=c(-3,11), ylim=c(48,60)) 
     fullres[[1]]$abundance[,1][is.infinite(fullres[[1]]$abundance[,1])] <- 0  # remove Inf
@@ -540,7 +546,7 @@ cat("coupling to nbcp...done\n")
 
 
 
-} # end FALSE
+
 
 
 
