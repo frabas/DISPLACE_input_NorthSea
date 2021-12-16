@@ -163,9 +163,11 @@ for(i in seq_along(fullres)){
 
 
 
-# Save full list (to be used in script 2)
+# Save full list (to be used in R script2 called within DISPLACE C++)
+# caution with the potential issue with R save()
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-save(fullres, file=file.path(getwd(),"LGNB-DISPLACE_coupling",paste0("Parameters_LengthGroups_",species,".RData"))) 
+save(fullres, file=file.path(getwd(),"LGNB-DISPLACE_coupling",paste0("Parameters_LengthGroups_",species,"_version2.RData")), version=2) #if R<4.0 i.e. on the HPC
+save(fullres, file=file.path(getwd(),"LGNB-DISPLACE_coupling",paste0("Parameters_LengthGroups_",species,".RData")))  # version 3 by default if R>4.0
 
 
 
