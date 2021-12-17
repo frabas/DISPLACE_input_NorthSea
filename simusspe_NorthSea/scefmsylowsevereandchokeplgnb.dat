@@ -1,0 +1,52 @@
+# dyn_alloc_sce
+baseline focus_on_high_profit_grounds TACs FMSY discard_ban stopGoingFishingOnFirstChokedStock
+# dyn_pop_sce
+baseline lgnbCoupling sizeSpectra stochasticGrowth
+# biolsce
+4
+# fleetsce
+1
+# Frequency to apply growth (0:daily; 1:weekly; 2:monthly; 3:quarterly; 4:semester)
+3
+# Frequency to redispatch the pop (0:daily; 1:weekly; 2:monthly; 3:quarterly; 4:semester)
+3
+# a_graph
+1
+# nrow_coord
+11059
+# nrow_graph
+64181
+# a_port
+9643
+# grid res km
+3
+# is_individual_vessel_quotas
+0
+#  check all stocks before going fishing (otherwise, explicit pops only)
+0
+# Go Fishing DTree
+GoFishing_NorthSea.dt.csv
+# Choose Ground DTree
+
+# Start Fishing DTree
+
+# Change Ground DTree
+
+# Stop Fishing DTree
+StopFishing_NorthSea_tree.dt.csv
+# Change Port DTree
+
+# Use Dtrees
+1
+#tariff_pop
+
+#req_update_tariff_code
+
+#arbitrary_breaks_for_tariff
+
+#total_amount_credited
+
+#tariff_annual_
+
+# banned metiers
+
