@@ -9,5 +9,9 @@ sce biolsce_maturity biolsce_M biolsce_weight biolsce_init_pops biolsce_init_pop
 2 1 1 1 1 1 1 0.8 1 1.5 1.1 1 1 0 0 1 1 SPR.nsea
 3 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0.645161290322581 COD.nsea
 3 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0.695238095238095 PLE.nsea
+3 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0.9 HER.nsea
+3 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0.9 SPR.nsea
 4 1 1 1 1 1 1 0.8 1 1.5 0.9 1.5 1 0 0 1 0.645161290322581 COD.nsea
 4 1 1 1 1 1 1 0.8 1 1.5 0.9 1.5 1 0 0 1 0.695238095238095 PLE.nsea
+4 1 1 1 1 1 1 0.8 1 1.5 0.9 1.5 1 0 0 1 0.9 HER.nsea
+4 1 1 1 1 1 1 0.8 1 1.5 1.1 1 1 0 0 1 0.9 SPR.nsea
