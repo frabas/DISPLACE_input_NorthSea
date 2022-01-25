@@ -1,2 +1,3 @@
-sce namesce
-1 baseline
+sce namesce selectivity_L50_multiplier
+1 scebaseline 1
+2 scebaseline 0.9
