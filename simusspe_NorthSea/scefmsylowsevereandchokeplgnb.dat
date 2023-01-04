@@ -1,7 +1,7 @@
 # dyn_alloc_sce
 baseline focus_on_high_profit_grounds TACs FMSY discard_ban stopGoingFishingOnFirstChokedStock
 # dyn_pop_sce
-baseline lgnbCoupling sizeSpectra stochasticGrowth
+baseline modelBenthosInLongevity lgnbCoupling sizeSpectra stochasticGrowth
 # biolsce
 4
 # fleetsce
